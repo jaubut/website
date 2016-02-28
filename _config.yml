@@ -2,14 +2,12 @@
 #
 
 # Site settings
-title: Spectral
+title: Chanvre Quebec
 description: |
-  Another fine responsive  
-  site template freebie  
-  crafted by [HTML5 UP](http://html5up.net)
-owner: Your Name # or company name
+  Chanvre Quebec se veut la référence en matière de chanvre au Québec.
+owner: Chanvre Quebec # or company name
 first_published: 2016 # if migrating another site, the year of your first publish
-email: your-email@domain.com
+email: info@chanvrequebec.com
 baseurl: "/website/" # the subpath of your site, e.g. /blog
 exclude: ['README.md']
 url: "http://jaubut.github.io" # the base hostname & protocol for your site
@@ -17,7 +15,7 @@ social:
   twitter: https://twitter.com/<username>
   github: https://github.com/<username>
   linkedin-square: https://linkedin.com/in/<username>
-  facebook-official: https://facebook.com/<username>
+  facebook-official: https://www.facebook.com/Chanvre-Quebec-1541184722867648/
   google-plus-square: https://plus.google.com/u/0/+<username>
   #email: /contact/
   #flickr:
