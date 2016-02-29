@@ -10,6 +10,13 @@ email: info@chanvrequebec.com
 baseurl: "/website" # the subpath of your site, e.g. /blog
 exclude: ['README.md', 'CNAME']
 url: "http://jaubut.github.io" # the base hostname & protocol for your site
+lsi: false
+safe: true
+source: ['https://github.com/jaubut/website']
+incremental: false
+highlighter: rouge
+gist:
+    noscript: false
 social:
   twitter: https://twitter.com/<username>
   github: https://github.com/<username>
