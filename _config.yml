@@ -2,14 +2,13 @@
 #
 
 # Site settings
-title: Chanvre Quebec
-description: |
-  Chanvre Quebec se veut la référence en matière de chanvre au Québec.
+title: Chanvre Quebec | La référence
+description: Chanvre Quebec se veut la référence en matière de chanvre au Québec.
 owner: Chanvre Quebec # or company name
 first_published: 2016 # if migrating another site, the year of your first publish
 email: info@chanvrequebec.com
 baseurl: "/website" # the subpath of your site, e.g. /blog
-exclude: ['README.md']
+exclude: ['README.md', 'CNAME']
 url: "http://jaubut.github.io" # the base hostname & protocol for your site
 social:
   twitter: https://twitter.com/<username>
@@ -54,5 +53,5 @@ social:
 
 # Build settings
 markdown: redcarpet
-#sass:
-#  style: compressed
+sass:
+  style: compressed
