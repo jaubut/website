@@ -7,9 +7,9 @@ description: Chanvre Quebec se veut la référence en matière de chanvre au Qu�
 owner: Chanvre Quebec # or company name
 first_published: 2016 # if migrating another site, the year of your first publish
 email: info@chanvrequebec.com
-baseurl: "/website" # the subpath of your site, e.g. /blog
+#baseurl: "/website" # the subpath of your site, e.g. /blog
 exclude: ['README.md', 'CNAME']
-url: "http://jaubut.github.io" # the base hostname & protocol for your site
+url: "http://chanvrequebec.com" # the base hostname & protocol for your site
 lsi: false
 safe: true
 source: ['https://github.com/jaubut/website']
