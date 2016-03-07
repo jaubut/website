@@ -7,7 +7,7 @@ description: Chanvre Quebec se veut la référence en matière de chanvre au Qu�
 owner: Chanvre Quebec # or company name
 first_published: 2016 # if migrating another site, the year of your first publish
 email: info@chanvrequebec.com
-#baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 exclude: ['README.md', 'CNAME']
 url: "http://www.chanvrequebec.com" # the base hostname & protocol for your site
 lsi: false
@@ -59,6 +59,6 @@ social:
   #amazon:
 
 # Build settings
-markdown: redcarpet
+markdown: kramdown
 sass:
   style: compressed
