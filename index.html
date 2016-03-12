@@ -2,17 +2,7 @@
 layout: landing
 ---
 
- <!-- ClickDesk Live Chat Service for websites -->
-<script type='text/javascript'>
-var _glc =_glc || []; _glc.push('all_ag9zfmNsaWNrZGVza2NoYXRyDwsSBXVzZXJzGMfxu7IQDA');
-var glcpath = (('https:' == document.location.protocol) ? 'https://my.clickdesk.com/clickdesk-ui/browser/' : 
-'http://my.clickdesk.com/clickdesk-ui/browser/');
-var glcp = (('https:' == document.location.protocol) ? 'https://' : 'http://');
-var glcspt = document.createElement('script'); glcspt.type = 'text/javascript'; 
-glcspt.async = true; glcspt.src = glcpath + 'livechat-new.js';
-var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(glcspt, s);
-</script>
-<!-- End of ClickDesk -->
+ 
       <!-- Google Tag Manager -->
 <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-N9HBSW"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
@@ -35,15 +25,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 			                     </span>
                             </p>
 							<ul class="actions">
-								<li><a href="#" class="button special" 
-                                       class="snipcart-add-item"
-                                        data-item-id="1"
-                                        data-item-name="superaliment"
-                                        data-item-price="15.00"
-                                        data-item-weight="500"
-                                        data-item-url="http://chanvrequebec.com"
-                                        data-item-description="best thing eva">
-                                    Ajouter</a></li>
+								<button class="snipcart-add-item"
+          data-item-name="{{product.name}}"
+          data-item-id="{{product.sku}}"
+          data-item-url="{{site.baseurl}}"
+          data-item-price="{{product.price}}">
+          Buy it for {{product.price}} $
+        </button>
 							</ul>
 						</div>
 						<a href="#one" class="more scrolly">En savoir plus</a>

@@ -1,0 +1,14 @@
+- name: Super Aliment
+  price: 29.99
+  slug: chanvre-super-aliment
+  sku: CSA
+
+- name: How Google Works
+  price: 20.99
+  slug: how-google-works
+  sku: HGW
+
+- name: Rework Change the way you work forever
+  price: 39.99
+  slug: rework
+  sku: SW
