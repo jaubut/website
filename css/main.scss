@@ -1993,5 +1993,6 @@ $baseurl: '{{ site.baseurl }}/images';
 }
 
 .panier {
-    align-content: center; 
+    position: relative;
+    text-align: center;
 }
