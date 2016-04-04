@@ -1,17 +1,14 @@
----
-layout: default
----
-<article id="main">
+{% include head.html %}
 
-  <header>
-    <h2>{{ page.title }}</h2>
-    <p>{{ page.date }}{{ page.author }}</p>
-      <br/>
-    <p>{{ page.categories }}</p>
-  </header>
-<section  class="wrapper style5">
-  <div class="inner">
+{% include header.html %}
+
+<section class="post--content">
+    <p class="post--date">{{ page.date | date_to_string }}</p>
+
+    <h1>{{ page.title }}</h1>
+    <p>{{ page.introduction }}</p>
+
     {{ content }}
-  </div>
 </section>
-</article>
+
+{% include footer.html %}
