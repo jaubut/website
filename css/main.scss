@@ -1248,11 +1248,11 @@ $baseurl: '{{ site.baseurl }}/images';
 		}
 
 		&.style2 {
-			background-color: _palette(dimgray;
+			background-color: _palette(fg);
 		}
         
         &.style22 {
-			background-color: _palette(black;
+			background-color: _palette(fg);
 		}
 
 		&.style3 {
