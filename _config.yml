@@ -18,10 +18,10 @@ highlighter: rouge
 gist:
     noscript: false
 social:
+  facebook-official: https://www.facebook.com/Chanvre-Quebec-1541184722867648/
   twitter: https://twitter.com/<username>
   github: https://github.com/<username>
   linkedin-square: https://linkedin.com/in/<username>
-  facebook-official: https://www.facebook.com/Chanvre-Quebec-1541184722867648/
   google-plus-square: https://plus.google.com/u/0/+<username>
   #email: /contact/
   #flickr:
