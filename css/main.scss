@@ -1055,7 +1055,7 @@ $baseurl: '{{ site.baseurl }}/images';
 			}
 
 			code {
-				background: _palette($p, bg);
+				background: _palette($p, border-bg);
 			}
 
 		// Section/Article
