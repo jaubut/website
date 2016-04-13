@@ -2,11 +2,11 @@
 #
 
 # Site settings
-title: Chanvre Quebec | La référence
-description: Chanvre Quebec se veut la référence en matière de chanvre au Québec.
-owner: Chanvre Quebec # or company name
-first_published: 2016 # if migrating another site, the year of your first publish
-email: info@chanvrequebec.com
+title: "Chanvre Quebec | La référence"
+description: "Chanvre Quebec se veut la référence en matière de chanvre au Québec."
+owner: "Chanvre Quebec" # or company name
+first_published: "2016" # if migrating another site, the year of your first publish
+email: "info@chanvrequebec.com"
 baseurl: "" # the subpath of your site, e.g. /blog
 exclude: ['README.md', 'CNAME']
 url: "http://www.chanvrequebec.com" # the base hostname & protocol for your site
@@ -18,45 +18,12 @@ highlighter: rouge
 gist:
     noscript: false
 social:
-  facebook-official: https://www.facebook.com/Chanvre-Quebec-1541184722867648/
-  twitter: https://twitter.com/<username>
-  github: https://github.com/<username>
-  linkedin-square: https://linkedin.com/in/<username>
-  google-plus-square: https://plus.google.com/u/0/+<username>
-  #email: /contact/
-  #flickr:
-  #instagram:
-  #youtube-square:
-  #spotify:
-  #stack-overflow:
-  #vimeo:
-  #reddit:
-  #stubleupon:
-  #delicious:
-  #pied-piper:
-  #digg:
-  #soundcloud:
-  #deviantart:
-  #angellist:
-  #tumblr-square:
-  #stackexchange:
-  #weibo:
-  #trello:
-  #foursquare:
-  #linux:
-  #bitbucket-square:
-  #vk:
-  #slack:
-  #vine:
-  #weixin:
-  #yelp:
-  #skyatlas:
-  #leanpub:
-  #connectdevelop:
-  #ils:
-  #forumbee:
-  #tripadvisor:
-  #amazon:
+  facebook-official: "https://www.facebook.com/Chanvre-Quebec-1541184722867648/"
+  twitter:
+  github: 
+  linkedin-square: 
+  google-plus-square:
+
 
 # Build settings
 markdown: kramdown
